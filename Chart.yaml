@@ -15,14 +15,14 @@ maintainers:
 dependencies:
   - condition: postgresql.enabled
     name: postgresql
-    repository: oci://registry-1.docker.io/bitnamichartslegacy
+    repository: oci://registry-1.docker.io/bitnamicharts
     version: 16.x.x
   - condition: redis.enabled
     name: redis
-    repository: oci://registry-1.docker.io/bitnamichartslegacy
+    repository: oci://registry-1.docker.io/bitnamicharts
     version: 18.x.x
   - name: common
-    repository: oci://registry-1.docker.io/bitnamichartslegacy
+    repository: oci://registry-1.docker.io/bitnamicharts
     tags:
       - bitnami-common
     version: 2.x.x
